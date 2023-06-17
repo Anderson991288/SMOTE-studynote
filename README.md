@@ -22,3 +22,38 @@ SMOTE（Synthetic Minority Over-sampling Technique）是一種用於處理類別
 這樣，我們就可以使用SMOTE來增加數據集中少數類的數量，從而改善模型在少數類上的預測效果。
 
 ### SMOTE模擬: 
+
+* calculateDistance函數:用於計算兩個樣本之間的歐氏距離
+* 將結果存儲在distances中
+* 使用printf將計算的距離輸出
+  
+```
+double calculateDistance(Sample* sample1, Sample* sample2) {
+    double distance = 0.0;
+    for (int i = 0; i < FEATURE_DIM; i++) {
+        double diff = sample1->features[i] - sample2->features[i];
+        distance += diff * diff;
+    }
+    return sqrt(distance);
+}
+
+int main() {
+    // 假設我們有一些樣本
+    Sample samples[] = {
+        {{1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 2.0, 2.0, 9.0, 9.0}, 0},
+        {{2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 3.0, 1.0, 6.0, 8.0}, 0},
+        {{4.0, 5.0, 6.0, 7.0, 8.0, 2.0, 5.0, 5.0, 1.0, 2.0}, 1},
+        {{5.0, 6.0, 7.0, 8.0, 9.0, 1.0, 6.0, 7.0, 3.0, 1.0}, 1}
+    };
+    int numSamples = 4;
+
+//    int k = 3;  // 鄰居數
+//    int numSyntheticSamples = 5;  // 每個少數類的合成樣本數
+
+    double distances[MAX_SAMPLES];
+    
+    for (int i = 0; i < numSamples-1; i++) {
+        distances[i] = calculateDistance(&samples[i], &samples[i+1]);
+        printf("Distance: %f\n", distances[i]);
+    }
+```
