@@ -24,7 +24,7 @@ SMOTE（Synthetic Minority Over-sampling Technique）是一種用於處理類別
 ### SMOTE模擬: 
 
 * calculateDistance函數:用於計算兩個樣本之間的歐氏距離
-* 將結果存儲在distances中
+* 將結果儲存在distances中
 * 使用printf將計算的距離輸出
   
 ```
