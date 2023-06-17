@@ -17,3 +17,4 @@ SMOTE（Synthetic Minority Over-sampling Technique）是一種用於處理類別
 
 這樣，我們就可以使用SMOTE來增加數據集中少數類的數量，從而改善模型在少數類上的預測效果。
 
+### SMOTE模擬: 
