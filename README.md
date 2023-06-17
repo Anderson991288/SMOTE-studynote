@@ -3,7 +3,7 @@
 SMOTE（Synthetic Minority Over-sampling Technique）是一種用於處理類別不平衡問題的過採樣方法。
 它通過合成少數類樣本的新樣本來增加數據集中少數類的數量，從而改善模型的訓練效果。
 
-### 以下是SMOTE的基本步驟：
+### SMOTE的基本步驟：
 
 1.選擇一個少數類的樣本作為基礎樣本。
 
