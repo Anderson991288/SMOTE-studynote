@@ -46,10 +46,6 @@ int main() {
         {{5.0, 6.0, 7.0, 8.0, 9.0, 1.0, 6.0, 7.0, 3.0, 1.0}, 1}
     };
     int numSamples = 4;
-
-//    int k = 3;  // 鄰居數
-//    int numSyntheticSamples = 5;  // 每個少數類的合成樣本數
-
     double distances[MAX_SAMPLES];
     
     for (int i = 0; i < numSamples-1; i++) {
