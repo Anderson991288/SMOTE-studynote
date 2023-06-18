@@ -36,6 +36,10 @@ DeepSMOTE的訓練過程中，為了引入變異性，使用Permute sample Order
 ### Permute Sample order 的意義 :
 增加數據多樣性、擴充數據集，同時具有計算效率和記憶體節省的優勢。
 
+### DeepSMOTE 算法 :
+
+![image](https://github.com/Anderson991288/SMOTE-studynote/assets/68816726/04afd695-63b1-4ce3-9f9c-5aa4bf7f394b)
+
 
 
 
