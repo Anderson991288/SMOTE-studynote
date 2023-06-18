@@ -3,8 +3,8 @@
 SMOTE（Synthetic Minority Over-sampling Technique）是一種用於處理類別不平衡問題的過採樣方法。
 它通過合成少數類樣本的新樣本來增加數據集中少數類的數量，從而改善模型的訓練效果。
 
-### Paper1:[DeepSMOTE Fusing Deep Learning and SMOTE.pdf](https://github.com/Anderson991288/SMOTE-studynote/files/11779355/DeepSMOTE.Fusing.Deep.Learning.and.SMOTE.pdf)
-### Paper2:[Imbalance Reduction Techniques Applied to ECG Classification Problem.pdf](https://github.com/Anderson991288/SMOTE-studynote/files/11779405/Imbalance.Reduction.Techniques.Applied.to.ECG.Classification.Problem.pdf)
+### [Paper1:DeepSMOTE Fusing Deep Learning and SMOTE.pdf](https://github.com/Anderson991288/SMOTE-studynote/blob/main/DeepSMOTE%20Fusing%20Deep%20Learning%20and%20SMOTE/README.md)
+### [Paper2:Imbalance Reduction Techniques Applied to ECG Classification Problem.pdf](https://github.com/Anderson991288/SMOTE-studynote/blob/main/Imbalance%20Reduction%20Techniques%20Applied%20to%20ECG%20Classification%20Problem/README.md)
 
 
 
