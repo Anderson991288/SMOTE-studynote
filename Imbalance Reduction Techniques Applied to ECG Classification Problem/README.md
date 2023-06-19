@@ -1,7 +1,7 @@
 # Imbalance Reduction Techniques Applied to ECG Classification Problem
 
 
-* 使用了一個高度不平衡的ECG數據集MIT-BIH進行實驗
+* 使用了高度不平衡的ECG數據集MIT-BIH進行實驗
 * 多類UMCE的組合模型，目的在處理不平衡的數據集
 
 * 一種方法是使用SMOTE
